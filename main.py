@@ -1,76 +1,58 @@
-# number = 1 + 10
-# print(f'{number=}')
-
-# number = 1 - 10
-# print(f'{number=}')
-
-# number = 2 * 10
-# print(f'{number=}')
-
-# number = 20 / 3
-# print(f'{number=}')
-
-# number = 20 // 3
-# print(f'{number=}')
-
-# number = 20 ** 3
-# print(f'{number=}')
-
-# number = 20 % 11
-# print(f'{number=}')
-
-# number = 5
-
-# number += 3 # 8
-# number -= 3
-# number *= 3 + 123
-# number /= 3
-# number //= 3
-# number **= 7 * 2
-# number %= 3
-
-# print(f'{number=}')
-
-# is_big = 10 > 8
-# is_big = 10 < 8
-# is_big = 10 <= 8
-# is_big = 10 >= 8
-# is_big = 10 == 10
-# is_big = 10 != 8
-
-# print(f'{is_big=}')
-
-# is_same = 'this ' != 'this'
-# print(f'{is_same=}')
-
-# age = 8
-# gender = 'male'
-
-# True and True == True
-# False and True == False
-# True and False == False
-# False and False == False
-
-# True or True == True
-# False or True == True
-# True or False == True
-# False or False == False
-
-# not True == False
-# not False == True
+# age = 21
+# gender = 'female'
 
 # is_eligible = age >= 18 and gender == 'male'
-# is_eligible = age >= 18 or gender == 'female'
-# is_eligible = not (age >= 18)
 
-# print(f'{is_eligible=}')
+# if is_eligible:
+#     print('This dude is eligible!')
+#     if age == 21:
+#         print('Age is 21')
+# elif age > 30:
+#     print('This dude is OLD')
+# elif age == 21:
+#     pass
+# else:
+#     print('This dude NOT is eligible!')
 
-# print(2 & 3)
-# print(2 | 3)
-# print(2 ^ 3)
+# print('The end')
 
-# arithmetic
-# asignment
-# comparison
-# logical
-# bitwise
+# color = 'indigo'
+
+# if color == 'indigo':
+#     pass
+# elif color == 'red':
+#     pass
+# elif color == 'green':
+#     pass
+
+# color = 'red'
+# has_pencil = True
+# age = 10
+
+# match color:
+#     case 'indigo':
+#         print('this color is indigo')
+#     case 'red' if has_pencil:
+#         print('this color is red')
+#     case 'green':
+#         print('this color is green')
+#     case _:
+#         print('this is a universal color')
+
+value = 'some string'
+
+match value:
+    case '1':
+        print('The value is 1')
+    case 2:
+        print('The value is 2')
+    case int():
+        print('The value is an integer')
+    case float():
+        print('The value is a float')
+    case str():
+        print('The value is a str')
+    case _:
+        print('This is an unknown value')
+
+print('The end')
