@@ -1,38 +1,76 @@
-# my_name = 'CodeMite'
+# number = 1 + 10
+# print(f'{number=}')
 
-# 1. they must start with an alphabet or an underscore
-# 2. they cannot contain any special character other than the underscore
-# 3. they must not contain an empty space
-# 4. variables names in the python are case sensitive
+# number = 1 - 10
+# print(f'{number=}')
 
-# _m1y3N2a_m_e_ = 'asdf'
+# number = 2 * 10
+# print(f'{number=}')
 
-# aa = 0
-# aA = 1
-# AA = 1
-# Aa = 1
-# Aa = 1
+# number = 20 / 3
+# print(f'{number=}')
 
-# i = 120
-# f = 1.12
+# number = 20 // 3
+# print(f'{number=}')
 
-# 1. string
-string = "this is a string"
-print(f'{string=}')
+# number = 20 ** 3
+# print(f'{number=}')
 
-# 2. number (int - integer, float)
-age = 90
-print(f'{age=}')
+# number = 20 % 11
+# print(f'{number=}')
 
-# 3. boolean (True, False)
-is_human = True
-print(f'{is_human=}')
+# number = 5
 
-# 4. None
-kids = None
-print(f'{kids=}')
+# number += 3 # 8
+# number -= 3
+# number *= 3 + 123
+# number /= 3
+# number //= 3
+# number **= 7 * 2
+# number %= 3
 
-# 5. list
-is_human = False
-videos = [1, 'i am string', is_human, 'i am also a string', None]
-print(f'{videos=}')
+# print(f'{number=}')
+
+# is_big = 10 > 8
+# is_big = 10 < 8
+# is_big = 10 <= 8
+# is_big = 10 >= 8
+# is_big = 10 == 10
+# is_big = 10 != 8
+
+# print(f'{is_big=}')
+
+# is_same = 'this ' != 'this'
+# print(f'{is_same=}')
+
+# age = 8
+# gender = 'male'
+
+# True and True == True
+# False and True == False
+# True and False == False
+# False and False == False
+
+# True or True == True
+# False or True == True
+# True or False == True
+# False or False == False
+
+# not True == False
+# not False == True
+
+# is_eligible = age >= 18 and gender == 'male'
+# is_eligible = age >= 18 or gender == 'female'
+# is_eligible = not (age >= 18)
+
+# print(f'{is_eligible=}')
+
+# print(2 & 3)
+# print(2 | 3)
+# print(2 ^ 3)
+
+# arithmetic
+# asignment
+# comparison
+# logical
+# bitwise
