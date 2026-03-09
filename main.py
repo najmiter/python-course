@@ -1,58 +1,64 @@
-# age = 21
-# gender = 'female'
+# while loop
 
-# is_eligible = age >= 18 and gender == 'male'
+# number = 1
 
-# if is_eligible:
-#     print('This dude is eligible!')
-#     if age == 21:
-#         print('Age is 21')
-# elif age > 30:
-#     print('This dude is OLD')
-# elif age == 21:
-#     pass
+# while number < 10:
+#     print('Inside the loop:', number)
+#     number += 1
+
+#############################
+
+# for number in range(2, 10, 2):
+#     print('Inside the loop:', number)
+
+#############################
+
+# for number in range(20, 10, -1):
+#     print('Inside the loop:', number)
+
+#############################
+
+# for number in range(10):
+#     if number == 5:
+#         break
+#     print('Inside the loop:', number)
+
+#############################
+
+# while True:
+#     number = input('Type 5: ')
+
+#     if number == '5':
+#         print('Bye')
+#         break
+    
+#     print('The number you input:', number)
+
+#############################
+
+# for number in range(5):
+#     print('Before the check')
+
+#     if number == 3:
+#         continue
+
+#     print('Inside the loop:', number)
+
+#############################
+
+# number = 1
+
+# while number < 5:
+#     number += 1
+#     if number == 10:
+#         break
 # else:
-#     print('This dude NOT is eligible!')
+#     print('The loop was not broken')
 
-# print('The end')
+#############################
 
-# color = 'indigo'
-
-# if color == 'indigo':
-#     pass
-# elif color == 'red':
-#     pass
-# elif color == 'green':
-#     pass
-
-# color = 'red'
-# has_pencil = True
-# age = 10
-
-# match color:
-#     case 'indigo':
-#         print('this color is indigo')
-#     case 'red' if has_pencil:
-#         print('this color is red')
-#     case 'green':
-#         print('this color is green')
-#     case _:
-#         print('this is a universal color')
-
-value = 'some string'
-
-match value:
-    case '1':
-        print('The value is 1')
-    case 2:
-        print('The value is 2')
-    case int():
-        print('The value is an integer')
-    case float():
-        print('The value is a float')
-    case str():
-        print('The value is a str')
-    case _:
-        print('This is an unknown value')
-
-print('The end')
+for number in range(10):
+    if number == 50:
+        break
+else:
+    print('The loop was not broken')
