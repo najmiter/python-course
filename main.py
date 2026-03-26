@@ -1,64 +1,61 @@
-# while loop
+# def drink_tea(cheeni=0, milk=0.5):
+#     print('drink: cheeni =', cheeni, ',milk =', milk)
 
-# number = 1
+# def make_tea():
+#     print('make: 1. take some milk')
+#     print('make: 2. take more water')
+#     print('make: 3. take some patti')
+#     print('make: 4. let him cook')
 
-# while number < 10:
-#     print('Inside the loop:', number)
-#     number += 1
+# def main():
+#     print('main: before making the tea')
+#     make_tea()
+#     drink_tea(1, 7)
 
-#############################
+#####################################
+#####################################
 
-# for number in range(2, 10, 2):
-#     print('Inside the loop:', number)
+# def user_details(name, age):
+#     print('the name is', name)
+#     print('the age is', age)
 
-#############################
+# def user_details(name, /, age, email=''):
+#     print('the name is', name)
+#     print('the age is', age)
 
-# for number in range(20, 10, -1):
-#     print('Inside the loop:', number)
+# def user_details(name, /, *args, age):
+#     print('user name:', name)
+#     i = 0
+#     while i < len(args):
+#         print('user details:', args[i])
+#         i += 1
 
-#############################
+#     print('user age:', age)
 
-# for number in range(10):
-#     if number == 5:
-#         break
-#     print('Inside the loop:', number)
+# def user_details(**args):
+#     print('user details:', args['old'])
 
-#############################
+# def user_details(name, age, /, *args, **kwargs):
+#     print('user details:', args)
+#     print('user details:', kwargs)
 
-# while True:
-#     number = input('Type 5: ')
+# def main():
+#     user_details('CodeMite', 90, 'myemail@example.com', 'Other', old=True, other=False)
 
-#     if number == '5':
-#         print('Bye')
-#         break
+#####################################
+#####################################
+
+def add(num1, num2): # num1=5, num2=5
+    result = num1 + num2 # result = 5 + 5
+    if result == 5:
+        return
     
-#     print('The number you input:', number)
+    result += 10
+    return result
+    
+def main():
+    sum = add(5, 5) # 20
+    print('the sum is:', sum)
 
-#############################
 
-# for number in range(5):
-#     print('Before the check')
-
-#     if number == 3:
-#         continue
-
-#     print('Inside the loop:', number)
-
-#############################
-
-# number = 1
-
-# while number < 5:
-#     number += 1
-#     if number == 10:
-#         break
-# else:
-#     print('The loop was not broken')
-
-#############################
-
-for number in range(10):
-    if number == 50:
-        break
-else:
-    print('The loop was not broken')
+main()
