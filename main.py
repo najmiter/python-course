@@ -1,61 +1,74 @@
-# def drink_tea(cheeni=0, milk=0.5):
-#     print('drink: cheeni =', cheeni, ',milk =', milk)
+# age = 90
 
-# def make_tea():
-#     print('make: 1. take some milk')
-#     print('make: 2. take more water')
-#     print('make: 3. take some patti')
-#     print('make: 4. let him cook')
+# details = f"my age is: {age + 1}"
+# print(details)
 
-# def main():
-#     print('main: before making the tea')
-#     make_tea()
-#     drink_tea(1, 7)
+# date = 'a good day'
 
-#####################################
-#####################################
+# msg = f'{date=}'
 
-# def user_details(name, age):
-#     print('the name is', name)
-#     print('the age is', age)
+# print(msg)
 
-# def user_details(name, /, age, email=''):
-#     print('the name is', name)
-#     print('the age is', age)
+# pi = 3.1415926
 
-# def user_details(name, /, *args, age):
-#     print('user name:', name)
-#     i = 0
-#     while i < len(args):
-#         print('user details:', args[i])
-#         i += 1
+# print(f'{pi=:.1f}')
 
-#     print('user age:', age)
+# content = 'this is SoMe content'
 
-# def user_details(**args):
-#     print('user details:', args['old'])
+# print(content.capitalize())
+# print(content.count('this'))
+# print(content.endswith('t .'))
+# print(content.startswith('This'))
+# print(content.find('is'))
+# print(content.index('is'))
+# print(content.isalnum())
+# print(content.isalpha())
+# print(content.isascii())
+# print(content.isnumeric())
+# print(content.isspace())
+# print(content.isprintable())
+# content = content.title()
+# print(content.istitle())
+# content = content.lower()
+# print(content.islower())
+# content = content.upper()
+# print(content)
+# print(content.isupper())
 
-# def user_details(name, age, /, *args, **kwargs):
-#     print('user details:', args)
-#     print('user details:', kwargs)
+# string = 'we have some string value'
 
-# def main():
-#     user_details('CodeMite', 90, 'myemail@example.com', 'Other', old=True, other=False)
+# print(string.split('.'))
 
-#####################################
-#####################################
+# permission = 'create:user'
 
-def add(num1, num2): # num1=5, num2=5
-    result = num1 + num2 # result = 5 + 5
-    if result == 5:
-        return
-    
-    result += 10
-    return result
-    
-def main():
-    sum = add(5, 5) # 20
-    print('the sum is:', sum)
+# permissions = permission.split(':') # ['create', 'user']
 
+# action = permissions[0] # 'create'
+# resource = permissions[1] # 'user'
 
-main()
+# print(f'You have access to {action} a {resource}')
+
+# user = 'My name is terrorist and i am not a khan'
+
+# user = user.replace('terrorist and', 'Khan')
+
+# user = user.removeprefix('my')
+
+# print(user)
+
+# name = 'codemite'
+
+# print(len(name))
+# print(name[0])
+
+# NOT ALLOWED
+# name[0] = 'ysjdfkjasdf'
+
+# i = 0
+# while i < len(name):
+#     print(name[i])
+#     i += 1
+
+string = 'this is yet another string'
+
+print(f'{string[:]}|')
